@@ -38,6 +38,7 @@ import { LAYOUT_EN_COLEMAK_DH_MATRIX } from "./layout/en_colemak_dh_matrix.ts";
 import { LAYOUT_EN_DVORAK } from "./layout/en_dvorak.ts";
 import { LAYOUT_EN_DVORAK_PROG } from "./layout/en_dvorak_prog.ts";
 import { LAYOUT_EN_ENGRAM } from "./layout/en_engram.ts";
+import { LAYOUT_EN_ENTHIUM_V6 } from "./layout/en_enthium_v6.ts";
 import { LAYOUT_EN_FOCAL } from "./layout/en_focal.ts";
 import { LAYOUT_EN_GALLIUM } from "./layout/en_gallium.ts";
 import { LAYOUT_EN_GALLIUM_MATRIX } from "./layout/en_gallium_matrix.ts";
@@ -47,6 +48,7 @@ import { LAYOUT_EN_HANDS_DOWN_NEU } from "./layout/en_hands_down_neu.ts";
 import { LAYOUT_EN_HANDS_DOWN_PROMETHIUM } from "./layout/en_hands_down_promethium.ts";
 import { LAYOUT_EN_NERPS } from "./layout/en_nerps.ts";
 import { LAYOUT_EN_NERPS_MATRIX } from "./layout/en_nerps_matrix.ts";
+import { LAYOUT_EN_NIGHT_MATRIX } from "./layout/en_night_matrix.ts";
 import { LAYOUT_EN_NORMAN } from "./layout/en_norman.ts";
 import { LAYOUT_EN_STURDY } from "./layout/en_sturdy.ts";
 import { LAYOUT_EN_UK } from "./layout/en_uk.ts";
@@ -118,6 +120,7 @@ const layouts = new Map<Layout, CharacterDict>([
   [Layout.EN_DVORAK, LAYOUT_EN_DVORAK],
   [Layout.EN_DVORAK_PROG, LAYOUT_EN_DVORAK_PROG],
   [Layout.EN_ENGRAM, LAYOUT_EN_ENGRAM],
+  [Layout.EN_ENTHIUM_V6, LAYOUT_EN_ENTHIUM_V6],
   [Layout.EN_FOCAL, LAYOUT_EN_FOCAL],
   [Layout.EN_GALLIUM, LAYOUT_EN_GALLIUM],
   [Layout.EN_GALLIUM_MATRIX, LAYOUT_EN_GALLIUM_MATRIX],
@@ -128,6 +131,7 @@ const layouts = new Map<Layout, CharacterDict>([
   [Layout.EN_JP, LAYOUT_JA_JP_JIS],
   [Layout.EN_NERPS, LAYOUT_EN_NERPS],
   [Layout.EN_NERPS_MATRIX, LAYOUT_EN_NERPS_MATRIX],
+  [Layout.EN_NIGHT_MATRIX, LAYOUT_EN_NIGHT_MATRIX],
   [Layout.EN_NORMAN, LAYOUT_EN_NORMAN],
   [Layout.EN_STURDY, LAYOUT_EN_STURDY],
   [Layout.EN_APT_v3, LAYOUT_EN_APTV3],

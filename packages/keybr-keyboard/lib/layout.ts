@@ -1124,6 +1124,24 @@ export class Layout implements XEnumItem {
       Geometry.MATRIX,
     ),
   );
+  static readonly EN_ENTHIUM_V6 = new Layout(
+    /* id= */ "en-enthium-v6",
+    /* xid= */ 0xa8,
+    /* name= */ "Enthium V6 (Matrix)",
+    /* family= */ "enthium",
+    /* language= */ Language.EN,
+    /* emulate= */ false,
+    /* geometries= */ new Enum(Geometry.MATRIX),
+  );
+  static readonly EN_NIGHT_MATRIX = new Layout(
+    /* id= */ "en-night-matrix",
+    /* xid= */ 0xa9,
+    /* name= */ "Night (matrix)",
+    /* family= */ "night",
+    /* language= */ Language.EN,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(Geometry.MATRIX),
+  );
 
   static readonly ALL = new XEnum<Layout>(
     Layout.EN_US,
@@ -1140,6 +1158,7 @@ export class Layout implements XEnumItem {
     Layout.EN_CANARY_MATRIX,
     Layout.EN_NERPS,
     Layout.EN_NERPS_MATRIX,
+    Layout.EN_NIGHT_MATRIX,
     Layout.EN_HANDS_DOWN_NEU,
     Layout.EN_HANDS_DOWN_PROMETHIUM,
     Layout.EN_STURDY,
@@ -1151,6 +1170,7 @@ export class Layout implements XEnumItem {
     Layout.EN_GRAPHITE,
     Layout.EN_APT_v3,
     Layout.EN_FOCAL,
+    Layout.EN_ENTHIUM_V6,
     Layout.EN_UK,
     Layout.EN_JP,
     Layout.EL_GR,
@@ -1163,6 +1183,7 @@ export class Layout implements XEnumItem {
     Layout.DE_MINE,
     Layout.DE_NOTED,
     Layout.DE_CMOS,
+    Layout.DE_ADNW_BUT_XCV,
     Layout.FR_FR,
     Layout.FR_CA,
     Layout.FR_CH,
@@ -1202,7 +1223,6 @@ export class Layout implements XEnumItem {
     Layout.TH_PAT,
     Layout.TH_MAN,
     Layout.RO_RO,
-    Layout.DE_ADNW_BUT_XCV,
   );
 
   static findLayout(localeId: string): Layout | null {
